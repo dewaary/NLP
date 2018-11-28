@@ -1,2 +1,2 @@
-web: gunicorn --bind 8.0.0.0:$PORT Api:app
-web: gunicorn -b :$PORT app:app
+web: gunicorn --bind 5000:$PORT Api:app
+web: gunicorn -b :$PORT Api:app
